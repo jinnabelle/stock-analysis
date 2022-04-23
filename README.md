@@ -7,7 +7,6 @@ The Stocks Analysis project looks at performance of companies based on their sto
 
 
 ## **Results**
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 **Stock performance:** 
 In 2017, SPWR had the highest total volume with 782M and FSLR having the second highest total volume with 684M. The bottom performers in terms of volume were HASI and DQ with volumes of 35M and 82M, relatively. In 2018, ENPH and SPWR having the highest total volume with 607M and 538M, respectively. When comparing between the two years, the total volume is more spread out across the companies in 2018 than in 2017. 
@@ -21,6 +20,7 @@ Refactoring the code decreased the runtime of the program. The first iteration o
 ![Runtime for 2018](Resources/VBA_Challenge_2018.png)
 
 The refactor had the output variables as arrays and a variable to use to index the counter's position, which made the program run faster. The code below is the example where I created the output arrays. 
+> '1a) Create a ticker Index
 >    tickerIndex = 0 <br>
 > '1b) Create three output arrays <br>
 >   Dim tickerVolumes(12) As Long <br>
@@ -29,7 +29,9 @@ The refactor had the output variables as arrays and a variable to use to index t
 
 
 ## **Summary**
-Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
 
+**Original VBA vs. Refactored VBA**
+The original VBA script relied on a nested for-loop, whereas the refactored VBA did not. In addition, the original VBA script looked to variable outputs whereas the refactored VBA used arrays as variables. These differences between the two scripts made a significant performance change in the runtime. The refactored script was significantly faster than the original script, the run time decreased from around 1 second to run to around 0.2 seconds.
+
+**Advantages of the Refactor**
+The refactor to the code was pretty much a restructure of the code. The restructure made the code cleaner. This cleaner code made it easier to follow as it is more straightforward. And finally, the refactor of the original VBA script decreased the runtime of the program. 
