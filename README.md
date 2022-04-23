@@ -16,16 +16,16 @@ When looking at performance based on returns, in 2017, majority of the stocks sa
 
 
 **Runtime performance:**
-Refactoring the code decreased the runtime of the program. The first iteration of the code had a runtime of more than 1 second but with this refactor, the runtime was cut down to ~0.2 seconds (the images below show the runtime of the program coming out the refactor). 
+Refactoring the code decreased the runtime of the program. The first iteration of the code had a runtime of more than 1 second but with this refactor, the runtime was cut down to ~0.2 seconds (the images below show the runtime of the program coming out the refactor). <br>
 ![Runtime for 2017](Resources/VBA_Challenge_2017.png)
 ![Runtime for 2018](Resources/VBA_Challenge_2018.png)
 
 The refactor had the output variables as arrays and a variable to use to index the counter's position, which made the program run faster. The code below is the example where I created the output arrays. 
->    tickerIndex = 0
-> '1b) Create three output arrays
->   Dim tickerVolumes(12) As Long
->   Dim tickerStartingPrices(12) As Single
->   Dim tickerEndingPrices(12) As Single
+>    tickerIndex = 0 <br>
+> '1b) Create three output arrays <br>
+>   Dim tickerVolumes(12) As Long <br>
+>   Dim tickerStartingPrices(12) As Single <br>
+>   Dim tickerEndingPrices(12) As Single <br>
 
 
 ## **Summary**
