@@ -5,7 +5,7 @@
 
 The Stocks Analysis project looks at performance of companies based on their stocks in the past couple of years. I summed up the total volume of each company and calculated the percent difference of their starting and ending price. The purpose of the project was to refactor the code we built in Module 2 to be able to analyze stocks data in a faster way.
 
-You can find the Excel Spreadsheet with the VBA scrip here [VBA Challenge](https://duckduckgo.com).
+The Excel Spreadsheet with the VBA script is here:  [VBA Challenge](https://github.com/jinnabelle/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## **Results**
 
